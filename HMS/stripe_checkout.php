@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-\Stripe\Stripe::setApiKey('sk_test_51QevSDC72xlZ1IDdlPt8ulBh6Bd4FNA3rDIPr0Q0S43uF3Qn4GOAaD9jRYjDDizNermva7U5SFzJr4WlByZiDIQG00nVJBfLnU');
+\Stripe\Stripe::setApiKey('YOUR_STRIPE_API_KEY_HERE');
 
 // Get raw input data
 $input = json_decode(file_get_contents('php://input'), true);
